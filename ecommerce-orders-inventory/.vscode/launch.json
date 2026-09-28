@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run EcommerceApplication",
+      "request": "launch",
+      "mainClass": "com.example.ecommerce.EcommerceApplication",
+      "projectName": "ecommerce-orders-inventory",
+      "console": "integratedTerminal",
+      "env": {
+        "DB_URL": "jdbc:postgresql://localhost:5432/ecommerce_db",
+        "DB_USERNAME": "postgres",
+        "DB_PASSWORD": "postgres"
+      }
+    }
+  ]
+}
